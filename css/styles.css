@@ -1,8 +1,49 @@
 :root{
 --primary-white-color: #ffffff;
+--primary-blue-color:#4d5ae5;
+--primary-navyblue-color:#2e2f42;
+--primary-slate-color:#434455;
 }
 body{
    font-family:"Roboto",sans-serif;
-   color: #434455;
+   color:var(--primary-slate-color);
    background-color:var(--primary-white-color);
+}
+nav,.link{
+   font-family:"Raleway", sans-serif;
+   color:var(--primary-blue-color);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+ nav .logo-studio{
+color:var(--primary-navyblue-color);
+}
+.list{
+   list-style:none; 
+}
+.list .link{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color:var(--primary-navyblue-color);
+}
+.list .link:hover, .list .link:focus {
+color: #404bbf;
+}
+.address{
+   font-style: normal;
+}
+.address,.list,.contact{
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--primary-slate-color);
+}
+.address,.list,.contact:hover,.address,.list,.contact:focus{
+   color:#404bbf;
 }
