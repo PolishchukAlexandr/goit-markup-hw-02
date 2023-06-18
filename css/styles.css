@@ -9,7 +9,7 @@ body{
    color:#434455;
    background-color:var(--primary-white-color);
 }
-nav,.link{
+nav .link{
    font-family:"Raleway",sans-serif;
    color:var(--primary-blue-color);
    font-weight:800;
@@ -17,6 +17,8 @@ nav,.link{
    line-height:1.17;
    letter-spacing:0.03em;
    text-transform:uppercase;
+}
+ nav .link{
    text-decoration:none;
 }
  nav .logo-studio{
