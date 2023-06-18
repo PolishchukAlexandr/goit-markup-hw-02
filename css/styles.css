@@ -7,9 +7,9 @@
 body{
    font-family:"Roboto",sans-serif;
    color:#434455;
-   background-color:#ffffff;
+   background-color:var(--primary-white-color);
 }
-nav .link{
+nav a{
    font-family:"Raleway",sans-serif;
    color:var(--primary-blue-color);
    font-weight:800;
