@@ -6,18 +6,18 @@
 }
 body{
    font-family:"Roboto",sans-serif;
-   color:var(--primary-slate-color);
+   color:#434455;
    background-color:var(--primary-white-color);
 }
 nav,.link{
-   font-family:"Raleway", sans-serif;
+   font-family:"Raleway",sans-serif;
    color:var(--primary-blue-color);
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   text-decoration: none;
+   font-weight:800;
+   font-size:18px;
+   line-height:1.17;
+   letter-spacing:0.03em;
+   text-transform:uppercase;
+   text-decoration:none;
 }
  nav .logo-studio{
 color:var(--primary-navyblue-color);
