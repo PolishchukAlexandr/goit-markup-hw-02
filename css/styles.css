@@ -9,7 +9,7 @@ body{
    color:#434455;
    background-color:var(--primary-white-color);
 }
-nav a{
+nav .link{
    font-family:"Raleway",sans-serif;
    color:var(--primary-blue-color);
    font-weight:800;
@@ -18,9 +18,7 @@ nav a{
    letter-spacing:0.03em;
    text-transform:uppercase;
 }
- nav .link{
-   text-decoration:none;
-}
+ 
  nav .logo-studio{
 color:var(--primary-navyblue-color);
 }
@@ -37,7 +35,7 @@ color:var(--primary-navyblue-color);
 .list .link:hover, .list .link:focus {
 color: #404bbf;
 }
-.address{
+.address .list .contact{
    font-style: normal;
 }
 .address,.list,.contact{
@@ -48,4 +46,7 @@ color: #404bbf;
 }
 .address,.list,.contact:hover,.address,.list,.contact:focus{
    color:#404bbf;
+}
+.link {
+   text-decoration: none;
 }
