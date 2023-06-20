@@ -44,7 +44,7 @@ body {
 .pages:focus {
   color: var(--primary-ocean-color);
 }
-.address .list . {
+.address .list {
   font-style: normal;
 }
 
