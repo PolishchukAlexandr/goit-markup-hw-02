@@ -25,9 +25,7 @@ body .logo-header {
 body .span-logo {
   color: var(--primary-navyblue-color);
 }
-.link {
-  text-decoration-line: none;
-}
+
 .address {
   font-style: normal;
 }
@@ -46,19 +44,18 @@ body .span-logo {
 .pages:focus {
   color: var(--primary-ocean-color);
 }
-.address .list .contact {
+.address .list . {
   font-style: normal;
 }
-.contact,
-.link {
+
+.communicate {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
 }
-.contact .link:hover,
-.contact,
-.link:focus {
+.communicate:hover,
+.communicate:focus {
   color: var(--primary-ocean-color);
 }
 .link {
