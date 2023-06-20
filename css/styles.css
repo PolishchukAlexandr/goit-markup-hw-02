@@ -13,7 +13,7 @@ body {
   background-color: var(--primary-white-color);
 }
 
-body .logo-header {
+.logo-header {
   font-family: "Raleway", sans-serif;
   color: var(--primary-blue-color);
   font-weight: 800;
@@ -22,7 +22,7 @@ body .logo-header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-body .span-logo {
+.span-logo {
   color: var(--primary-navyblue-color);
 }
 
